@@ -63,7 +63,7 @@ nav ul{
 .action{
     display: flex;
     border-radius: 10px;
-    padding: 50px 159px 0 141px;
+    padding: 117px 150px 116px 141px.;
 }
 .productive-user{
     
@@ -94,7 +94,7 @@ nav ul{
     border-radius: 10px;
     padding: 50px 142px;
     text-align: center;
-    margin: 116px;
+    
 
 
 }
@@ -102,8 +102,56 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+main section{
+    margin: 116px;
+}
 .metrics-grid{
     display: flex;
     justify-content: space-around;
 
 }
+.text-center{
+    text-align: center;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
+}
+.skill-description{
+    padding: 2px
+}
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+}
+.reviewer-name {
+    font-weight: 600;
+    color: #333333;
+    font-size: 0.95em;
+}
+
+.review-date {
+    font-size: 0.85em;
+    color: #888888;
+}
+.review{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    
+   
+}
+.action-image{
+    max-width: 100%; /
+    height: auto;
+    display: block;
+    border-radius: 50px; 
+    box-shadow: 1px 15px 40px rgba(0, 0, 0, 0.15);
+}
+. .action-content {
+        max-width: 100%; 
+        padding-right: 0; 
+        margin-bottom: 40px;
+    }
+    .image-radius{
+        border-radius: 35px;
+    }
