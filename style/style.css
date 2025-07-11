@@ -19,6 +19,15 @@ padding: 12px 36px;
 border-radius: 5px;
 border: none;
 }
+.section-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+}
+.section-description{
+    font-size: 24px;
+    color: #252432;
+}
 /* nav styles */
 nav{
     display: flex;
@@ -36,4 +45,20 @@ nav ul li{
 }
 nav ul{
     display: flex;
+}
+/* banner style */
+.banner-content{
+   padding: 267px 267px 152px 450px;
+   align-items: center;
+   font-size: 30px;
+ 
+}
+/* header */
+.header{
+    background-image: url(../images/Hero-bg.png);
+}
+.action{
+    display: flex;
+    border-radius: 10px;
+    padding: 50px 159px 0 141px;
 }
