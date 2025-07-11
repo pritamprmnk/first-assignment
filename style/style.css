@@ -1,14 +1,39 @@
 
-.inter-normal> {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
 
-.raleway-normal> {
+
+.raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
+}
+/* shared style */
+.text-primary{
+    color: #4E47FF;
+}
+.btn-primary{
+background-color: #4E47FF;
+font-weight: bold;
+font-size: 20px;
+color: white;
+padding: 12px 36px;
+border-radius: 5px;
+border: none;
+}
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 34px;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul{
+    display: flex;
 }
