@@ -20,13 +20,16 @@ border-radius: 5px;
 border: none;
 }
 .section-title{
-    font-size: 42px;
+    font-size: 30px;
     font-weight: bold;
     color: black;
 }
 .section-description{
     font-size: 24px;
     color: #252432;
+}
+.sacondary-bg{
+    background-color: #E6E6FA;
 }
 /* nav styles */
 nav{
@@ -61,4 +64,46 @@ nav ul{
     display: flex;
     border-radius: 10px;
     padding: 50px 159px 0 141px;
+}
+.productive-user{
+    
+}
+
+.metric-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  */
+    flex: 1;
+    min-width: 180px;
+}
+.metric-item .number {
+    font-size:80px;
+    font-weight: 700;
+    color: #5d5dff; 
+    margin-bottom: 1px; 
+}
+
+.metric-item .label {
+    font-size: 1.1em;
+    color: #666666; 
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+} 
+
+.productive-user{
+    border-radius: 10px;
+    padding: 50px 142px;
+    text-align: center;
+    margin: 116px;
+
+
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.metrics-grid{
+    display: flex;
+    justify-content: space-around;
+
 }
