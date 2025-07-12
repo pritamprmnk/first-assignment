@@ -18,6 +18,9 @@ color: white;
 padding: 12px 36px;
 border-radius: 5px;
 border: none;
+margin: 4px 2px;
+opacity: 1;
+transition: 0.3s;
 }
 .section-title{
     font-size: 30px;
@@ -307,7 +310,7 @@ main section{
 
 .submit-button {
     display: block;
-    width: 100%;
+    
     background-color: #6A5ACD;
     color: #ffffff;
     padding: 16px 25px;
@@ -382,3 +385,6 @@ main section{
 .footer-nav li a:hover {
     color: #4169E1;
 }
+
+/* hover effect */
+
